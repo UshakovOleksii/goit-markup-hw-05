@@ -698,6 +698,7 @@ img {
   padding-left: 16px;
   line-height: 1;
   resize: none;
+  padding-top: 11px;
 }
 .modal-input-comment::placeholder {
   font-family: Roboto;
