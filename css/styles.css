@@ -557,11 +557,12 @@ img {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
 }
 .footer-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 .footer-container-p {
   font-family: Roboto;
@@ -573,15 +574,20 @@ img {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: rgba(255, 255, 255, 1);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .email-input {
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color: rgba(46, 47, 66, 1);
   padding-left: 16px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 .footer-button {
   background-color: rgba(77, 90, 229, 1);
@@ -597,12 +603,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .footer-button:focus,
 .footer-button:hover {
   background-color: #31d0aa;
 }
-
+.svg-img-footer {
+  margin-left: 16px;
+}
 .email-input:focus {
   border-color: #31d0aa;
   outline: none;
