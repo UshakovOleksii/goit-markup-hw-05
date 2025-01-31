@@ -758,7 +758,7 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-input:focus-within .icon-input {
+.modal-input:focus-within .icon-input-svg {
   fill: #4d5ae5;
 }
 .modal-input-comment:focus {
