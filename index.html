@@ -506,7 +506,7 @@
     <div class="backdrop" data-modal>
       <div class="modal">
         <button class="icon-button" type="button" data-modal-close>
-          <svg class="icon-close">
+          <svg class="icon-close" width="8" height="8">
             <use
               class="icon-close-use"
               href="./images/icons.svg#icon-close-black-18dp-2-1"
@@ -516,10 +516,15 @@
         <p class="modal-p">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="input-label-svg">
-            <label for="" class="label-input"><span>Name</span></label>
+            <label for="user-name" class="label-input"><span>Name</span></label>
             <div class="input-wrap">
-              <input type="text" class="modal-input" name="user-name" />
-              <svg class="icon-input" width="18" height="18">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="icon-input" width="18" height="24">
                 <use
                   href="./images/icons.svg#icon-person-black-18dp-1-2"
                   class="icon-input-svg"
@@ -531,7 +536,7 @@
             <label for="" class="label-input"><span>Phone</span></label>
             <div class="input-wrap">
               <input type="text" class="modal-input" name="user-tel" />
-              <svg class="icon-input" width="18" height="18">
+              <svg class="icon-input" width="18" height="24">
                 <use
                   href="./images/icons.svg#icon-phone-black-18dp-1"
                   class="icon-input-svg"
@@ -543,7 +548,7 @@
             <label for="" class="label-input"><span>Email</span></label>
             <div class="input-wrap">
               <input type="text" class="modal-input" name="user-mail" />
-              <svg class="icon-input" width="18" height="18">
+              <svg class="icon-input" width="18" height="24">
                 <use
                   class="icon-input-svg"
                   href="./images/icons.svg#icon-email-black-18dp-1"
