@@ -599,7 +599,6 @@ img {
   color: rgba(255, 255, 255, 1);
   text-align: center;
   vertical-align: middle;
-  margin-left: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -760,8 +759,9 @@ img {
   margin-bottom: 4px;
 }
 .input-wrap {
-  padding-top: 4px;
-  padding-bottom: 8px;
+  /*padding-top: 4px;
+  padding-bottom: 8px;*/
+  position: relative;
 }
 .input-label-svg {
   margin-top: 8px;
@@ -792,10 +792,11 @@ img {
 .comment-input {
   margin-bottom: 16px;
 }
+/*
 .input-wrap {
   position: relative;
 }
-
+*/
 .send-form {
   display: block;
   min-width: 169px;
