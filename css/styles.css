@@ -798,53 +798,7 @@ img {
 .input-wrap {
   position: relative;
 }
-.checkbox-container {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  color: rgba(142, 143, 153, 1);
-  margin-top: 16px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-}
 
-.custom-checkbox {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  cursor: pointer;
-}
-
-.privacy-link {
-  color: #007bff;
-  text-decoration: none;
-  text-decoration-line: underline;
-}
-
-.privacy-link:hover {
-  text-decoration: underline;
-}
-.checkbox-text {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.04em;
-  text-decoration-style: solid;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
 .send-form {
   font-family: Roboto;
   font-size: 16px;
@@ -872,4 +826,9 @@ img {
 .send-form:hover,
 .send-form:focus {
   background-color: #2330bf;
+}
+.custom-checkbox:checked + .checkbox-text {
+  background-color: var(--active-bg);
+  border: none;
+  fill: #f4f4fd;
 }
