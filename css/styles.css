@@ -700,7 +700,6 @@ img {
   line-height: 24px;
   font-size: 16px;
   font-weight: 500;
-  margin-top: 24px;
   margin-bottom: 16px;
   letter-spacing: 0.02em;
 }
@@ -768,7 +767,7 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-input:focus-within .icon-input-svg {
+.modal-input:focus-within .icon-input {
   fill: #4d5ae5;
 }
 .modal-input-comment:focus {
