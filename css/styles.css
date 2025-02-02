@@ -591,7 +591,6 @@ img {
 }
 .footer-button {
   background-color: rgba(77, 90, 229, 1);
-  gap: 16px;
   border-radius: 4px;
   width: 165px;
   height: 40px;
@@ -759,12 +758,9 @@ img {
   margin-bottom: 4px;
 }
 .input-wrap {
-  /*padding-top: 4px;
-  padding-bottom: 8px;*/
   position: relative;
 }
 .input-label-svg {
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -792,11 +788,6 @@ img {
 .comment-input {
   margin-bottom: 16px;
 }
-/*
-.input-wrap {
-  position: relative;
-}
-*/
 .send-form {
   display: block;
   min-width: 169px;
@@ -812,6 +803,7 @@ img {
   border: none;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
 }
 
 .send-form:hover,
